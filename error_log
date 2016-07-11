@@ -1,0 +1,2 @@
+[05-Jun-2016 18:30:58 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection refused in /home/r44770digi/public_html/messenger/classes/class_db_manager.php on line 12
+[05-Jun-2016 18:51:05 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/r44770digi/public_html/messenger/classes/class_model.php on line 45

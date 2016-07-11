@@ -1,0 +1,109 @@
+.btnEmojis {
+    background-color: #2c3e50;
+    border-radius: 6px;
+    height: 45px;
+    width: 100%;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.chatbox {
+  background-color: #ecf0f1;
+  padding: 10px 30px 20px;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.chatbox .chat-window-tab {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(254, 254, 254, .5);
+}
+
+.chatbox .chat-window-tab.selected {
+    background-color: #fefefe;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.chatbox .input-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.chatbox .message-content {
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.chatbox .message-received {
+  text-align: left;
+}
+
+.chatbox .message-sent {
+  text-align: right;
+}
+
+.chatbox .message-received .message-content {
+   background-color: #1abc9c;
+   width: auto;
+}
+
+.chatbox .message-sent .message-content {
+  background-color: #2c3e50;
+}
+
+.chatbox .conversation {
+  background-color: #fefefe;
+  padding: 20px 20px;
+  overflow: scroll;
+  height: 50vh;
+  margin-bottom: 20px;
+  
+  z-index: 10000;
+}
+
+.chatbox .title {
+  letter-spacing: 2px;
+}
+
+.chatbox .subtitle {
+  color: #16a085;
+}
+
+.chatbox .title .recipient-name {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+
+.emoji-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: -15px 15px 25px;
+}
+
+.emoji-item-button {
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.weather-icon {
+    width: 50px;
+}

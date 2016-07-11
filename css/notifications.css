@@ -1,0 +1,21 @@
+.notifications-box {
+  background-color: #ecf0f1;
+  padding: 10px 30px 20px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.notifications-list {
+  background-color: #fefefe;
+  padding: 20px 40px;
+  overflow: scroll;
+  height: 10vh;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.notification-item {
+  cursor: pointer;
+}

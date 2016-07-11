@@ -1,0 +1,67 @@
+.color-online {
+    color: #1abc9c;
+}
+
+.color-offline {
+    color: #ecf0f1;
+}
+
+.login-window, .create-account-window {
+  width: 40%;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: #ecf0f1;
+  border-radius: 0px;
+  padding: 40px 70px 40px;
+  text-align: center;
+}
+
+.login-window .title, 
+.login-window .subtitle,
+.create-account-window .title,
+.create-account-window .subtitle {
+  margin-top: 0;
+  text-align: center;
+}
+
+.login-window .subtitle,
+.create-account-window .subtitle {
+  margin-bottom: 40px;
+}
+
+.login-window p,
+.create-account-window p {
+  letter-spacing: 1px;
+}
+
+.login-window .or,
+.create-account-window .or {
+  margin-top: 15px;
+}
+
+.login-window .btnLogin,
+.create-account-window .btnCreateAccount{
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #c0392b; 
+}
+
+.emoji {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btnSendMessage {
+    display: none;
+}
+
+.btn-test {
+    background-color: #ff9900;
+}
+
